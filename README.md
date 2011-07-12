@@ -6,7 +6,7 @@ Progstr.Log is a service that collects and manages programmer log entries in the
 * Sign up for Progstr.Log and obtain an API token. That token is used to identify you against the service.
 * Include the `progstr.js` script on your page by refering it from the `ajax.progstr.com` server:
 <pre>
-&lt;script type="text/javascript" src="http://ajax.progstr.com/progstr-js/1.0.0/progstr.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://ajax.progstr.com/progstr-js/1.0.0/progstr.js" &gt;&lt;/script&gt;
 </pre>
 * Configure the API token by setting the `Progstr.apiToken` property in a script block:
 <pre>
