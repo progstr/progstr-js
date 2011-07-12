@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- tests -->
+    <script type="text/javascript" src="../../main/js/progstr.js"></script>
+    <script type="text/javascript">
+      Progstr.apiToken = "DEMO"
+      var logger = Progstr.logger("staging.js.test")
+      logger.info("Loading page: " + window.location.href)
+
+      window.onload = function() {
+        //alert("onload")
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="logger.info('Info log')">Info</button>
+    <button onclick="logger.warning('Warning log')">Warning</button>
+    <button onclick="logger.error('Error log')">Error</button>
+    <button onclick="logger.fatal('Fatal log')">Fatal</button>
+  </body>
+</html>
